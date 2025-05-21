@@ -1,0 +1,83 @@
+html {
+	background-color: black;
+}
+#app {
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+}
+#gameboard {
+	background-image: url("/gameboard/background.png");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size:auto;
+}
+#mainboard {
+	margin:auto;
+	text-align: center
+}
+.mainboard-item {
+	margin: auto;
+	text-align:center;
+}
+.answer-tile {
+	background-image: linear-gradient(#71b7f2, #0d4ba6, #0d4ba6);
+	border: 5px solid; /* Width is required */
+  	border-image: linear-gradient(135deg, #eee, #aaa, #888, #ccc, #eee) 1;
+ 	border-radius: 8px; /* Optional */
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer-tile .answer-index {
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #413c5e, #01010f); /* Silver gradient */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Optional depth */
+
+}
+#answers {
+	width: 42%;
+}
+
+.team-score {
+	background-color: black;
+	color: white;
+}
+#team-2-total {
+	text-align: right;
+}
+.team-score {
+	padding: 12px;
+}
+#live-score h1 {
+	width:100px;
+	margin: auto;
+	background-color: black;
+	color: white;
+	margin-bottom: 250px;
+}
+.show {
+    display: flex !important; /* Show the modal */
+    background-color: black;
+}
+
+.centered-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;    /* This is the default, but explicit is good */
+  gap: 1rem;              /* Optional: spacing between images */
+}
+.answer-answer{
+	color:white;
+}

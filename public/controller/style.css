@@ -1,0 +1,17 @@
+#top{
+	display: flex;
+	width: 100%;
+}
+#app {
+	width: 100%;
+}
+
+
+.answer-tile {
+	border: 4px;
+	border-color: black;
+	border-style: solid;
+}
+#scores{
+	margin-left:20px;
+}
