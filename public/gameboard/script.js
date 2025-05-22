@@ -73,8 +73,8 @@ socket.onmessage = function(event) {
             app._data.boardData.answers.forEach((answer)=> {
                 document.getElementById(`${answer.placement}index`).classList.add('visible')
                 document.getElementById(`${answer.placement}index`).classList.remove('invisible')
-                document.getElementById(`${answer.placement}answer`).classList.add('invisible')
-                document.getElementById(`${answer.placement}answer`).classList.remove('visible')
+                document.getElementById(`${answer.placement}answer`).classList.add('d-none')
+                document.getElementById(`${answer.placement}votes`).classList.add('d-none')
             })
             boardName = xmlDoc.getElementsByTagName('boardName')[0].childNodes[0].nodeValue;
             app.request(boardName);
@@ -109,10 +109,14 @@ socket.onmessage = function(event) {
                 if (answer.placement == answerPlacement){
                     document.getElementById(`${answerPlacement}index`).classList.remove('visible')
                     document.getElementById(`${answerPlacement}index`).classList.add('invisible')
+                    /*
                     document.getElementById(`${answerPlacement}answer`).classList.remove('invisible')
                     document.getElementById(`${answerPlacement}answer`).classList.add('visible')
                     document.getElementById(`${answerPlacement}votes`).classList.remove('invisible')
                     document.getElementById(`${answerPlacement}votes`).classList.add('visible')
+                    */
+                    document.getElementById(`${answerPlacement}answer`).classList.remove('d-none')
+                    document.getElementById(`${answerPlacement}votes`).classList.remove('d-none')
                 }
             })
             document.getElementById('correct-ding').play();

@@ -27,10 +27,10 @@
                         <img src = "/gameboard/x.png" id="x-three" class = "invisible"></img>
                     </div>
 					<div id = "answers" class="row row-cols-2 bg-dark mainboard-item">
-						<div v-for="(choice, index) in boardData.answers" class="answer-tile text-center" v-bind:id="boardData.question + choice.placement">
-                            <span class = "answer-answer invisible" v-bind:id="choice.placement+'answer'">{{choice.answer}}</span>
-							<span class = "answer-index visible" v-bind:id="choice.placement+'index'">{{choice.placement}}</span>
-                            <span class = "answer-answer invisible" v-bind:id="choice.placement+'votes'">{{choice.votes}}</span>
+						<div v-for="(choice, index) in boardData.answers" class="answer-tile text-center flex justify-content-between" v-bind:id="boardData.question + choice.placement">
+                            <span class = "answer-answer d-none" v-bind:id="choice.placement+'answer'"><h2>{{choice.answer}}</h2></span>
+							<span class = "answer-index visible flex" v-bind:id="choice.placement+'index'"><span>{{choice.placement}}</span></span>
+                            <span class = "answer-answer d-none" v-bind:id="choice.placement+'votes'"><h3>{{choice.votes}}</h3></span>
 						</div>
 					</div>
 				</div>

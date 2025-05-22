@@ -47,7 +47,7 @@ export const board1data: board = {
             placement: 5
         },
         {
-            answer: "Treat yo self",
+            answer: "Treatyoself",
             votes: 4,
             placement: 6
         }
@@ -57,7 +57,7 @@ export const board2data: board = {
     question: "What job would you have in purgatory",
     answers: [
         {
-            answer: "Satan's Helper",
+            answer: "Satans Helper",
             votes: 24,
             placement: 1
         },
@@ -72,7 +72,7 @@ export const board2data: board = {
             placement: 3
         },
         {
-            answer: "Customer Service",
+            answer: "Cust Service",
             votes: 12,
             placement: 4
         },
@@ -139,49 +139,49 @@ export const board4data: board = {
     question: "What super power do you wish your partner had?",
     answers: [
         {
-            answer: "Teleportation",
+            answer: "Teleport",
             votes: 12,
             placement: 1
         },
         {
-            answer: "Invisibility",
+            answer: "Invisible",
             votes: 12,
             placement: 2
         },
         {
             answer: "Stretchy",
             votes: 12,
-            placement: 2
+            placement: 3
         },
         {
             answer: "Mind Reader",
             votes: 12,
-            placement: 2
+            placement: 4
         },
         {
             answer: "Super Speed",
             votes: 8,
-            placement: 2
+            placement: 5
         },
         {
-            answer: "Shapeshifting",
+            answer: "Shapeshift",
             votes: 8,
-            placement: 2
+            placement: 6
         },
         {
             answer: "Super Suck",
             votes: 8,
-            placement: 2
+            placement: 7
         },
         {
-            answer: "Animal Whispers",
+            answer: "Animal Whisper",
             votes: 4,
-            placement: 2
+            placement: 8
         },
         {
             answer: "Telekenesis",
             votes: 4,
-            placement: 2
+            placement: 9
         }
     ]
 }
