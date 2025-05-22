@@ -41,6 +41,7 @@ html {
   font-weight: bold;
   color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Optional depth */
+  margin: auto;
 
 }
 #answers {
