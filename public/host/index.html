@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>jeopardyHost</title>
+        <meta charset="utf-8">
+        <!link rel="icon" href="/img/favicon.svg">
+        <link rel="stylesheet" href="/host/style.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <div v-if="fastFeud == true">
+                <span v-for="(value, key) in fastData">
+                    <h3>{{key}}</h3>
+                </span>
+            </div>
+            <div v-else-if="mainBoard == true">
+                <div id="questionDiv">
+                    <h2>Question: </h2>
+                    <h1 id="question"><strong>{{boardData.question}}</strong></h1>
+                </div>
+            </div>
+            <div id="await" v-else>
+                <h1>Awaiting controller...</h1>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.8/vue.min.js"></script>
+    <script src="/host/script.js"></script>
+</html>
