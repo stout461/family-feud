@@ -3,7 +3,7 @@ version: '3.0'
 services:
     jeopardy:
         build: .
-        container_name: jeopardy
+        container_name: feud
         restart: unless-stopped
         ports: 
           - "3100:3000"
