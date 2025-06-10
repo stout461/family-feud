@@ -131,12 +131,12 @@ socket.onmessage = function(event) {
             }
             break;
         case "fastResponse":
-            location = xmlDoc.getElementsByTagName('location')[0].childNodes[0].nodeValue;
+            position = xmlDoc.getElementsByTagName('location')[0].childNodes[0].nodeValue;
             answer = xmlDoc.getElementsByTagName('answer')[0].childNodes[0].nodeValue;
             votes = Number(xmlDoc.getElementsByTagName('votes')[0].childNodes[0].nodeValue);
             app._data.liveScore += votes;
-            document.getElementById(`${location}-a`).innerHTML = `${answer}`;
-            document.getElementById(`${location}-v`).innerHTML = `${votes}`;
+            document.getElementById(`${position}-a`).innerHTML = `${answer}`;
+            document.getElementById(`${position}-v`).innerHTML = `${votes}`;
             document.getElementById('total').innerHTML = app._data.liveScore;
             break;
         case "setFastBoard":
