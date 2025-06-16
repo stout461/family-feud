@@ -19,175 +19,148 @@ type fastboard = {
 }
 
 export const board1data: board = {
-    question: "First thing you'd buy if you won the lottery",
+    question: "Name Something you hop you never Hear from your QA",
     answers: [
         {
-            answer: "House",
-            votes: 45,
+            answer: "I found a bug",
+            votes: 37,
             placement: 1
         },
         {
-            answer: "Car",
-            votes: 17,
+            answer: "Everything is fine",
+            votes: 21,
             placement: 2
         },
         {
-            answer: "Motorcycle",
-            votes: 8,
+            answer: "Anything at all",
+            votes: 16,
             placement: 3
         },
         {
-            answer: "Invest",
-            votes: 8,
+            answer: "You missed an acceptance Criteria",
+            votes: 10,
             placement: 4
         },
         {
-            answer: "Drugs",
+            answer: "Production issue",
             votes: 5,
             placement: 5
-        },
-        {
-            answer: "Treatyoself",
-            votes: 4,
-            placement: 6
         }
     ]
 }
 export const board2data: board = {
-    question: "What job would you have in purgatory",
+    question: "Name Something You do while waiting for a build to finish",
     answers: [
         {
-            answer: "Satans Helper",
-            votes: 24,
+            answer: "Refresh / Watch the logs",
+            votes: 21,
             placement: 1
         },
         {
-            answer: "Unemployed",
+            answer: "Check Social Media / Talk in the office",
             votes: 17,
             placement: 2
         },
         {
-            answer: "White Collar",
-            votes: 13,
+            answer: "Get Coffee / Take a break",
+            votes: 16,
             placement: 3
         },
         {
-            answer: "Cust Service",
-            votes: 12,
+            answer: "Check/Send Emails",
+            votes: 16,
             placement: 4
         },
         {
-            answer: "Food Service",
-            votes: 12,
+            answer: "Pray / Do Something Superstitious",
+            votes: 10,
             placement: 6
         },
         {
-            answer: "Cleaning",
-            votes: 11,
+            answer: "Play some games",
+            votes: 10,
             placement: 5
         },
         {
-            answer: "Tortured",
-            votes: 8,
+            answer: "Nap!",
+            votes: 5,
             placement: 7
+        },
+        {
+            answer: "Check the News",
+            votes: 5,
+            placement: 8
         }
-
     ]
 }
 export const board3data: board = {
-    question: "What would you wish upon your worst enemy?",
+    question: "Name a Task you are most likely to give off to the intern",
     answers: [
         {
-            answer: "Torture",
+            answer: "Documentation",
             votes: 28,
             placement: 1
         },
         {
-            answer: "Discomfort",
-            votes: 20,
+            answer: "Automation/Dashboard reporting",
+            votes: 28,
             placement: 2
         },
         {
-            answer: "Good things",
-            votes: 12,
+            answer: "Fetch Coffee/Snacks",
+            votes: 11,
             placement: 3
         },
         {
-            answer: "Death",
-            votes: 12,
+            answer: "Trivial / Time Consuming tasks",
+            votes: 11,
             placement: 4
         },
         {
-            answer: "Pain",
-            votes: 12,
+            answer: "Frontend work",
+            votes: 11,
             placement: 5
         },
         {
-            answer: "Bodily Impact",
-            votes: 8,
+            answer: "Research",
+            votes: 5,
             placement: 6
-        },
-        {
-            answer: "Karma",
-            votes: 4,
-            placement: 7
-        },
-
+        }
     ]
 }
 export const board4data: board = {
-    question: "What super power do you wish your partner had?",
+    question: "Name a Reason that your local ENV is not working",
     answers: [
         {
-            answer: "Teleport",
-            votes: 12,
+            answer: "Schwab Proxy / Zscaler",
+            votes: 25,
             placement: 1
         },
         {
-            answer: "Invisible",
-            votes: 12,
-            placement: 2
-        },
-        {
-            answer: "Stretchy",
-            votes: 12,
+            answer: "Bad configuration",
+            votes: 20,
             placement: 3
         },
         {
-            answer: "Mind Reader",
-            votes: 12,
+            answer: "Poor Coding / Not something I did / My Cat was on the keyboard",
+            votes: 15,
             placement: 4
         },
         {
-            answer: "Super Speed",
-            votes: 8,
+            answer: "Cert issues",
+            votes: 15,
             placement: 5
         },
         {
-            answer: "Shapeshift",
-            votes: 8,
-            placement: 6
-        },
-        {
-            answer: "Super Suck",
-            votes: 8,
-            placement: 7
-        },
-        {
-            answer: "Animal Whisper",
-            votes: 4,
-            placement: 8
-        },
-        {
-            answer: "Telekenesis",
-            votes: 4,
-            placement: 9
+            answer: "Schwab Computer Doing dumb things.",
+            votes: 25,
+            placement: 2
         }
     ]
 }
 
 export const fastData: fastboard = {
-    "grilling meat": [
+    "Name a meat that you might grill": [
         {
             answer: "steak",
             votes: 45
@@ -213,144 +186,124 @@ export const fastData: fastboard = {
             votes: 4
         }
     ],
-    "Indiana city (not Indy)": [
+    "Name Something That Might Be Full of Holes": [
         {
-            answer: "Fort Wayne",
-            votes: 25
-        },
-        {
-            answer: "Bloomington",
-            votes: 25
-        },
-        {
-            answer: "Gary",
-            votes: 15
-        },
-        {
-            answer: "Anderson",
-            votes: 5
-        },
-        {
-            answer: "Avon",
-            votes: 5
-        },
-        {
-            answer: "Brownsburg",
-            votes: 5
-        },
-        {
-            answer: "Cleveland",
-            votes: 5
-        },
-        {
-            answer: "Munster",
-            votes: 5
-        },
-        {
-            answer: "Martinsville",
-            votes: 5
-        },
-        {
-            answer: "Pawnee",
-            votes: 5
-        },
-        {
-            answer: "Richmond",
-            votes: 5
-        },
-        {
-            answer: "Terre Haute",
-            votes: 5
-        },
-        {
-            answer: "Boston",
-            votes: 5
-        },
-        {
-            answer: "Warsaw",
-            votes: 5
-        }
-    ],
-    "Indy sports team": [
-        {
-            answer: "Pacers",
-            votes: 50
-        },
-        {
-            answer: "Fever",
-            votes: 17
-        },
-        {
-            answer: "Colts",
-            votes: 13
-        },
-        {
-            answer: "Indians",
-            votes: 13
-        },
-        {
-            answer: "Fuel",
-            votes: 5
-        }
-    ],
-    "racing series": [
-        {
-            answer: "NASCAR",
+            answer: "Swiss Cheese",
             votes: 40
         },
         {
-            answer: "F1",
-            votes: 29
+            answer: "Clothes/Socks",
+            votes: 16
         },
         {
-            answer: "WEC",
+            answer: "Alibi/Story",
+            votes: 14
+        },
+        {
+            answer: "Net/Fishing Net",
+            votes: 9
+        },
+        {
+            answer: "Colander/Strainer",
             votes: 8
         },
         {
-            answer: "Rally",
-            votes: 5
+            answer: "Golf Course",
+            votes: 2
         },
         {
-            answer: "Mariokart",
-            votes: 4
+            answer: "Screen",
+            votes: 2
+        },
+        {
+            answer: "Road/Street",
+            votes: 2
         }
     ],
-    "drinking game": [
+    " Name Something a Squirrel Might Get in a Fight With if It Tried To Take His Nuts ": [
         {
-            answer: "Beer Pong",
-            votes: 45
+            answer: "Bird/Crow",
+            votes: 30
         },
         {
-            answer: "King's Cup",
-            votes: 25
+            answer: "Another Squirrel",
+            votes: 23
         },
         {
-            answer: "Flip Cup",
-            votes: 15
+            answer: "Chipmunk",
+            votes: 12
         },
         {
-            answer: "Shot4Shot",
+            answer: "Cat",
+            votes: 13
+        },
+        {
+            answer: "Raccoon",
             votes: 5
         },
         {
-            answer: "Never Have I Ever",
+            answer: "Dog",
             votes: 5
         },
         {
-            answer: "Quarters",
+            answer: "Rabbit",
+            votes: 4
+        },
+        {
+            answer: "Human",
+            votes: 3
+        }
+    ],
+    "Name Something That Might Be Brewing": [
+        {
+            answer: "Coffee",
+            votes: 37
+        },
+        {
+            answer: "Beer",
+            votes: 28
+        },
+        {
+            answer: "Tea",
+            votes: 17
+        },
+        {
+            answer: "Trouble",
+            votes: 8
+        },
+        {
+            answer: "A Storm",
             votes: 5
         },
         {
-            answer: "Beer Die",
-            votes: 5
+            answer: "A Plot",
+            votes: 3
+        }
+    ],
+    "Name Something Specific About Mickey Mouse That Other Mice Might Make Fun Of": [
+        {
+            answer: "Gigantic Ears",
+            votes: 36
         },
         {
-            answer: "Rage Cage",
-            votes: 5
+            answer: "Clothes/Gloves",
+            votes: 29
         },
         {
-            answer: "Pool",
-            votes: 5
+            answer: "Voice/Laugh",
+            votes: 19
         },
+        {
+            answer: "His Huge Feet ",
+            votes: 3
+        },
+        {
+            answer: "BFFs With a Duck",
+            votes: 3
+        },
+        {
+            answer: "Honker/Big Nose",
+            votes: 3
+        }
     ]
 }
