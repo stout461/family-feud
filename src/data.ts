@@ -19,291 +19,279 @@ type fastboard = {
 }
 
 export const board1data: board = {
-    question: "Name Something you hop you never Hear from your QA",
+    question: "Name the most common toy people in DFEM have in their desks",
     answers: [
         {
-            answer: "I found a bug",
-            votes: 37,
+            answer: "rubik's cube",
+            votes: 53,
             placement: 1
         },
         {
-            answer: "Everything is fine",
-            votes: 21,
+            answer: "stress ball",
+            votes: 18,
             placement: 2
         },
         {
-            answer: "Anything at all",
-            votes: 16,
+            answer: "fidget toy ",
+            votes: 10,
             placement: 3
         },
         {
-            answer: "You missed an acceptance Criteria",
-            votes: 10,
+            answer: "rubber duck",
+            votes: 6,
             placement: 4
         },
         {
-            answer: "Production issue",
-            votes: 5,
+            answer: "Pen",
+            votes: 6,
             placement: 5
+        },
+        {
+             answer: "Movie Themed toy (Starwars)",
+             votes: 6,
+             placement: 6
         }
     ]
 }
 export const board2data: board = {
-    question: "Name Something You do while waiting for a build to finish",
+    question: "A song might be a hit. Name something else that might be a hit.",
     answers: [
         {
-            answer: "Refresh / Watch the logs",
-            votes: 21,
+            answer: "Movie",
+            votes: 44,
             placement: 1
         },
         {
-            answer: "Check Social Media / Talk in the office",
-            votes: 17,
+            answer: "TV show",
+            votes: 21,
             placement: 2
         },
         {
-            answer: "Get Coffee / Take a break",
-            votes: 16,
+            answer: "Play",
+            votes: 9,
             placement: 3
         },
         {
-            answer: "Check/Send Emails",
-            votes: 16,
+            answer: "Dance",
+            votes: 9,
             placement: 4
         },
         {
-            answer: "Pray / Do Something Superstitious",
-            votes: 10,
-            placement: 6
-        },
-        {
-            answer: "Play some games",
-            votes: 10,
+            answer: "Book",
+            votes: 8,
             placement: 5
         },
         {
-            answer: "Nap!",
+            answer: "Baseball/sport",
+            votes: 6,
+            placement: 6
+        }
+    ]
+}
+export const board3data: board = {
+    question: "Name a house you never want to be in.",
+    answers: [
+        {
+            answer: "Haunted House",
+            votes: 27,
+            placement: 1
+        },
+        {
+            answer: "Jail/Big House",
+            votes: 11,
+            placement: 2
+        },
+        {
+            answer: "Doghouse",
+            votes: 8,
+            placement: 3
+        },
+        {
+            answer: "Drug House",
+            votes: 7,
+            placement: 4
+        },
+        {
+            answer: "Small House",
+            votes: 7,
+            placement: 5
+        },
+        {
+            answer: "Glass House",
+            votes: 6,
+            placement: 6
+        },
+        {
+            answer: "Cat House",
             votes: 5,
             placement: 7
         },
         {
-            answer: "Check the News",
+            answer: "Outhouse",
             votes: 5,
             placement: 8
         }
     ]
 }
-export const board3data: board = {
-    question: "Name a Task you are most likely to give off to the intern",
-    answers: [
-        {
-            answer: "Documentation",
-            votes: 28,
-            placement: 1
-        },
-        {
-            answer: "Automation/Dashboard reporting",
-            votes: 28,
-            placement: 2
-        },
-        {
-            answer: "Fetch Coffee/Snacks",
-            votes: 11,
-            placement: 3
-        },
-        {
-            answer: "Trivial / Time Consuming tasks",
-            votes: 11,
-            placement: 4
-        },
-        {
-            answer: "Frontend work",
-            votes: 11,
-            placement: 5
-        },
-        {
-            answer: "Research",
-            votes: 5,
-            placement: 6
-        }
-    ]
-}
 export const board4data: board = {
-    question: "Name a Reason that your local ENV is not working",
+    question: "Name something a parent says when their kid is in trouble ",
     answers: [
         {
-            answer: "Schwab Proxy / Zscaler",
-            votes: 25,
+            answer: "Kid's full name",
+            votes: 27,
             placement: 1
         },
         {
-            answer: "Bad configuration",
-            votes: 20,
+            answer: "You're grounded",
+            votes: 22,
+            placement: 2
+        },
+        {
+            answer: "Go to your room",
+            votes: 12,
             placement: 3
         },
         {
-            answer: "Poor Coding / Not something I did / My Cat was on the keyboard",
-            votes: 15,
+            answer: "I'm not mad; I'm disappointed",
+            votes: 9,
             placement: 4
         },
         {
-            answer: "Cert issues",
-            votes: 15,
+            answer: "What were you thinking / Why did it?",
+            votes: 7,
             placement: 5
         },
         {
-            answer: "Schwab Computer Doing dumb things.",
-            votes: 25,
-            placement: 2
+            answer: "Just wait until ____ gets home",
+            votes: 6,
+            placement: 6
+        },
+        {
+            answer: "We need to talk",
+            votes: 7,
+            placement: 7
+        },
+        {
+            answer: "Your in Big trouble",
+            votes: 3,
+            placement: 8
         }
     ]
 }
 
 export const fastData: fastboard = {
-    "Name a meat that you might grill": [
+    "Name something you would not want to receive as a birthday gift": [
         {
-            answer: "steak",
-            votes: 45
-        },
-        {
-            answer: "dogs/brats",
-            votes: 16
-        },
-        {
-            answer: "pork",
-            votes: 14
-        },
-        {
-            answer: "burger",
-            votes: 12
-        },
-        {
-            answer: "seafood",
-            votes: 9
-        },
-        {
-            answer: "chicken",
-            votes: 4
-        }
-    ],
-    "Name Something That Might Be Full of Holes": [
-        {
-            answer: "Swiss Cheese",
-            votes: 40
-        },
-        {
-            answer: "Clothes/Socks",
-            votes: 16
-        },
-        {
-            answer: "Alibi/Story",
-            votes: 14
-        },
-        {
-            answer: "Net/Fishing Net",
-            votes: 9
-        },
-        {
-            answer: "Colander/Strainer",
-            votes: 8
-        },
-        {
-            answer: "Golf Course",
-            votes: 2
-        },
-        {
-            answer: "Screen",
-            votes: 2
-        },
-        {
-            answer: "Road/Street",
-            votes: 2
-        }
-    ],
-    " Name Something a Squirrel Might Get in a Fight With if It Tried To Take His Nuts ": [
-        {
-            answer: "Bird/Crow",
+            answer: "Socks/Underwear",
             votes: 30
         },
         {
-            answer: "Another Squirrel",
-            votes: 23
+            answer: "Ugly Clothes",
+            votes: 18
         },
         {
-            answer: "Chipmunk",
-            votes: 12
-        },
-        {
-            answer: "Cat",
-            votes: 13
-        },
-        {
-            answer: "Raccoon",
-            votes: 5
-        },
-        {
-            answer: "Dog",
-            votes: 5
-        },
-        {
-            answer: "Rabbit",
-            votes: 4
-        },
-        {
-            answer: "Human",
-            votes: 3
-        }
-    ],
-    "Name Something That Might Be Brewing": [
-        {
-            answer: "Coffee",
-            votes: 37
-        },
-        {
-            answer: "Beer",
-            votes: 28
-        },
-        {
-            answer: "Tea",
+            answer: "Cleaning/Household Items",
             votes: 17
         },
         {
-            answer: "Trouble",
-            votes: 8
+            answer: "Hygiene Items",
+            votes: 9
         },
         {
-            answer: "A Storm",
+            answer: "Bill / Invoice / Lawsuit",
+            votes: 7
+        },
+        {
+            answer: "Pet/Animal",
+            votes: 6
+        },
+        {
+            answer: "Food/Candy",
             votes: 5
         },
         {
-            answer: "A Plot",
+            answer: "Diet/Exercise Items",
+            votes: 4
+        },
+        {
+            answer: "Gift Card",
             votes: 3
         }
     ],
-    "Name Something Specific About Mickey Mouse That Other Mice Might Make Fun Of": [
+    "Name something that only happens every few years.": [
         {
-            answer: "Gigantic Ears",
-            votes: 36
+            answer: "Leap Year",
+            votes: 43
         },
         {
-            answer: "Clothes/Gloves",
-            votes: 29
+            answer: "Eclipse",
+            votes: 22
         },
         {
-            answer: "Voice/Laugh",
-            votes: 19
+            answer: "Olympics",
+            votes: 16
         },
         {
-            answer: "His Huge Feet ",
+            answer: "Presidential Election",
+            votes: 9
+        }
+    ],
+    "Name a nocturnal animal.": [
+        {
+            answer: "Owl",
+            votes: 58
+        },
+        {
+            answer: "Bats",
+            votes: 26
+        },
+        {
+            answer: "Raccoon",
+            votes: 8
+        },
+        {
+            answer: "Opossum",
+            votes: 5
+        }
+    ],
+    "Name a way people communicated before texting was invented.": [
+        {
+            answer: "Telephone call",
+            votes: 43
+        },
+        {
+            answer: "Letters / Notes",
+            votes: 39
+        },
+        {
+            answer: "Carrier Pigeon",
+            votes: 8
+        },
+        {
+            answer: "In Person Visit / Conversation",
             votes: 3
+        }
+    ],
+    "Name a place schoolchildren often go for field trips.": [
+        {
+            answer: "Museum",
+            votes: 42
         },
         {
-            answer: "BFFs With a Duck",
-            votes: 3
+            answer: "Zoo",
+            votes: 38
         },
         {
-            answer: "Honker/Big Nose",
-            votes: 3
+            answer: "Farm / Pumpkin Patch",
+            votes: 8
+        },
+        {
+            answer: "Aquarium",
+            votes: 5
+        },
+        {
+            answer: "Park / Amusement Park",
+            votes: 4
         }
     ]
 }
